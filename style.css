@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
 * {
   font-family: "Nunito", sans-serif;
@@ -8,50 +8,57 @@ body {
   background: #c9c9c9;
 }
 
+a{
+  text-decoration: none;
+}
+
 .container {
   margin: auto;
   width: 45%;
   padding: 10px;
 }
 
-.post {
+.row-post{
   padding: 17px 14px;
   background: #ffffff;
 }
 
+.col-post {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+
 .img-profile {
   border-radius: 50%;
   width: 40px;
-  display: inline;
-  float: left;
-  margin-right: 12px;
   height: 40px;
 }
 
-.name-profile-post {
+.profile-post{
+  flex-grow: 8;
+  margin-left: 10px;
+}
+
+.name-frofile-post{
+  color: deepskyblue;
   font-size: 18px;
-  font-weight: 500;
-  color: blue;
-  display: inline;
 }
 
 .status-post{
   font-size: 16px;
-  font-weight: 200;
   color: black;
-  display: inline;
 }
 
-.time-post {
-  font-size: 11px;
-  margin-top: 3px;
-  color: grey;
+.time-post{
+  margin-top: 5px;
+  font-size: 14px;
+  color: darkgrey;
 }
 
 .btn-menu{
-  float: right;
-  color: darkgrey;
-  font-size: small;
+  flex-grow: 1;
 }
 
 .content-body{
@@ -64,10 +71,6 @@ body {
 
 .img-content{
   width: 100%;
-}
-
-a{
-  text-decoration: none;
 }
 
 .i-like{
@@ -89,7 +92,7 @@ a{
   margin-left: 8px;
 }
 
-.comment {
+.row-comments {
   padding: 17px 14px;
   background: #f1f1f1;
   margin-bottom: 100px;
@@ -99,18 +102,23 @@ a{
   font-size: 14px;
 }
 
-
-.commnets-post{
-  margin-top: 18px;
+.col-comments{
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  margin-top: 24px;
 }
 
-.profile-commnets-post{
+.comments-post{
+  margin-left: 10px;
+}
+
+.profile-comments-post{
   font-size: 14px;
-  margin: auto;
 }
 
-.time-commnets{
-  color: rgb(124, 119, 119);
+.time-comments{
+  color: darkgrey;
 }
 
 .comments{
@@ -123,7 +131,6 @@ a{
 .reply{
   color: deepskyblue;
   font-size: 11px;
-  margin-left: 50px;
 }
 
 .i-flag{
@@ -132,13 +139,17 @@ a{
   margin-left: 14px;
 }
 
-.input{
+.col-input{
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
   margin-top: 24px;
 }
 
 .input-comments{
-  width: 87%;
   padding: 8px;
+  flex-grow: 8;
+  margin-left: 10px;
 }
 
 button{
@@ -149,3 +160,4 @@ button{
   margin-left: 54px;margin-top: 8px;
 
 }
+
