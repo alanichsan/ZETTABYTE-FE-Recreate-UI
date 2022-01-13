@@ -18,11 +18,13 @@ a{
   padding: 10px;
 }
 
+/* NOTE : POST */
 .row-post{
   padding: 17px 14px;
   background: #ffffff;
 }
 
+/* NOTE : HEADER */
 .col-post {
   display: flex;
   flex-direction: row;
@@ -60,7 +62,9 @@ a{
 .btn-menu{
   flex-grow: 1;
 }
+/* NOTE : END HEADER */
 
+/* NOTE : BODY POST */
 .content-body{
   margin-top: 24px;
 }
@@ -72,7 +76,9 @@ a{
 .img-content{
   width: 100%;
 }
+/* NOTE : BODY POST */
 
+/* NOTE : SHARE & LIKE POST */
 .i-like{
   color: darkgrey;
   font-size: small;
@@ -85,6 +91,8 @@ a{
   margin-left: 16px;
   margin-top: 16px;
 }
+/* NOTE : SHARE & LIKE POST */
+/* NOTE : END POST */
 
 .text-icon{
   color: darkgrey;
@@ -92,16 +100,21 @@ a{
   margin-left: 8px;
 }
 
+/* NOTE : COMNENTS */
+
 .row-comments {
   padding: 17px 14px;
   background: #f1f1f1;
   margin-bottom: 100px;
 }
 
+/* NOTE : TITLE COMMNETS */
 .main-title{
   font-size: 14px;
 }
+/* NOTE : TITLE END COMMNETS */
 
+/* NOTE : BODY COMNENTS */
 .col-comments{
   display: flex;
   flex-direction: row;
@@ -138,7 +151,9 @@ a{
   font-size: 11px;
   margin-left: 14px;
 }
+/* NOTE : END BODY COMNENTS */
 
+/* NOTE : INPUT COMNENTS */
 .col-input{
   display: flex;
   flex-direction: row;
@@ -151,13 +166,17 @@ a{
   flex-grow: 8;
   margin-left: 10px;
 }
+/* NOTE : INPUT COMNENTS */
 
+/* NOTE : BUTTON COMNENTS */
 button{
   border: none;
   background: deepskyblue;
   color: #ffffff;
   padding: 6px 10px;
   margin-left: 54px;margin-top: 8px;
-
 }
+/* NOTE : BUTTON COMNENTS */
 
+
+/* NOTE : END COMNENTS */
