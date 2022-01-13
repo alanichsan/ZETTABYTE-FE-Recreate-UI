@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background: #c9c9c9;
+}
+
+.container {
+  margin: auto;
+  width: 45%;
+  padding: 10px;
+}
+
+.post {
+  padding: 17px 14px;
+  background: #ffffff;
+}
+
+.img-profile {
+  border-radius: 50%;
+  width: 40px;
+  display: inline;
+  float: left;
+  margin-right: 12px;
+  height: 40px;
+}
+
+.name-profile-post {
+  font-size: 18px;
+  font-weight: 500;
+  color: blue;
+  display: inline;
+}
+
+.status-post{
+  font-size: 16px;
+  font-weight: 200;
+  color: black;
+  display: inline;
+}
+
+.time-post {
+  font-size: 11px;
+  margin-top: 3px;
+  color: grey;
+}
+
+.btn-menu{
+  float: right;
+  color: darkgrey;
+  font-size: small;
+}
+
+.content-body{
+  margin-top: 24px;
+}
+
+.text-content{
+  font-size: 16px;
+}
+
+.img-content{
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+.i-like{
+  color: darkgrey;
+  font-size: small;
+  margin-top: 16px;
+}
+
+.i-share{
+  color: darkgrey;
+  font-size: small;
+  margin-left: 16px;
+  margin-top: 16px;
+}
+
+.text-icon{
+  color: darkgrey;
+  font-size: small;
+  margin-left: 8px;
+}
+
+.comment {
+  padding: 17px 14px;
+  background: #f1f1f1;
+  margin-bottom: 100px;
+}
+
+.main-title{
+  font-size: 14px;
+}
+
+
+.commnets-post{
+  margin-top: 18px;
+}
+
+.profile-commnets-post{
+  font-size: 14px;
+  margin: auto;
+}
+
+.time-commnets{
+  color: rgb(124, 119, 119);
+}
+
+.comments{
+  margin-top: 3px;
+  font-size: 12px;
+  text-align: justify;
+  text-justify: auto;
+}
+
+.reply{
+  color: deepskyblue;
+  font-size: 11px;
+  margin-left: 50px;
+}
+
+.i-flag{
+  color: darkgrey;
+  font-size: 11px;
+  margin-left: 14px;
+}
+
+.input{
+  margin-top: 24px;
+}
+
+.input-comments{
+  width: 87%;
+  padding: 8px;
+}
+
+button{
+  border: none;
+  background: deepskyblue;
+  color: #ffffff;
+  padding: 6px 10px;
+  margin-left: 54px;margin-top: 8px;
+
+}
